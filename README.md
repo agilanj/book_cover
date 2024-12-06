@@ -151,7 +151,8 @@ Publish the website in the LocalHost.
 </html>
 ~~~
 # OUTPUT:
-![Screenshot (85)](https://github.com/user-attachments/assets/c462f524-b75f-42e1-9800-8e780c9221f1)
+![Screenshot (87)](https://github.com/user-attachments/assets/97570533-f26b-497c-b730-877a58b6d5ad)
+
 
 
 # RESULT:
