@@ -39,15 +39,15 @@ Publish the website in the LocalHost.
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Londrina+Sketch&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700family=Londrina+Sketchfamily=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700display=swap" rel="stylesheet">
 
 
     <style>
@@ -65,7 +65,7 @@ Publish the website in the LocalHost.
         .book-cover {
             width: 400px;
             height: 600px;
-            background-color: #fff8dc;
+            background-image: url("c:\Users\admin\Desktop\html agilan\money full.jpg");
             border: 8px solid #b5651d;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             display: flex;
@@ -108,14 +108,13 @@ Publish the website in the LocalHost.
             font-size: 18px;
             color: #6b4f3f;
         }
-        /*.cover-design {
-            margin-top: 0px;
-            background-image: url('cover-art.jpg'); 
+         .cover-design {
+            margin-top: 0px; 
             background-size: cover;
             background-position: center;
             height: 200px;
             border: 2px solid #b5651d;
-        } */
+        }  
         .about2{
             font-weight: 200;
             font-style: italic;
@@ -135,12 +134,16 @@ Publish the website in the LocalHost.
     </style>
 </head>
 <body>
+    
 
     <div class="book-cover">
         <div class="title">The Psychology of Money</div>
         <div class="author"> --Morgan Housel</div>
         
-        <div class="cover-design"></div>
+        <div class="cover-design">
+            {% load static%}
+            <img src={% static 'images/money_full.jpg' %} height="200px" width="397px" >
+        </div>
         <div class="about"> TIMELESS LESSONS ON WEALTH, GREED, AND HAPPINESS </div>
         <h3 class="about2">"Everyone should own a copy." </h3>
         <h2 class="about2sub">- JAMES CLEAR</h2>
@@ -151,7 +154,8 @@ Publish the website in the LocalHost.
 </html>
 ~~~
 # OUTPUT:
-![Screenshot (87)](https://github.com/user-attachments/assets/97570533-f26b-497c-b730-877a58b6d5ad)
+![Screenshot (102)](https://github.com/user-attachments/assets/ea91f32c-7de5-4912-839d-307ad8cf84c8)
+
 
 
 
